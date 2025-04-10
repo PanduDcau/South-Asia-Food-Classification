@@ -1,0 +1,8 @@
+Inspiration
+Indian meal is a magical explosion of contrasting flavours and foods. There are many regional cuisines in India, each with a history up to 5,000 years old. The food eaten in different parts of India is shaped by :
+
+Geography and climate: providing a varying array of ingredients for people to eat at different times of the year.
+History: of trade and migration, evidence of the many cultures and peoples who brought new foods to India.
+Content
+The dataset has been divided into train and val by default to ease 
+user's process of navigating files. It has 20 state famous food categories inside which images of that particular food item are present. It further has a test directory fully categorized in the same manner as train and val. It has been carefully made for you to test your model on new and uncrafted images of our yummy dataset. Then finally, an optional Model directory has Inception v3 model using transfer learning to predict images and play around.
