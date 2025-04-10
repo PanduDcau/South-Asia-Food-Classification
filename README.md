@@ -42,8 +42,6 @@ K.clear_session()
 # <b>IMAGE PROCESSSING</b>
 
 <h2>Reshaping dimensions so we can start processing arrays. </h2>
-
-
 ```python
 img = plt.imread('Dataset/train/pizza/006.jpg')
 dims = np.shape(img)
@@ -52,8 +50,6 @@ print(np.shape(matrix))
 ```
 
     (1080000, 3)
-
-
 
 ```python
 plt.imshow(img)
@@ -65,10 +61,6 @@ print("Min color depth : {}, Max color depth {}".format(np.min(img),np.max(img))
     Image shape ->  (900, 1200)
     Color channels ->  3
     Min color depth : 0, Max color depth 255
-
-
-
-    
 ![png](output_8_1.png)
 
 
@@ -84,9 +76,6 @@ plt.show()
 
     
 ![png](output_10_0.png)
-    
-
-
 <h2>Plot for visualizing histogram between 2 color channel</h2>
 
 
@@ -257,8 +246,6 @@ plt.imshow(img_pca[:,:,1], cmap=cmap)
 # <b>Exploratory Data Analysis (EDA)</b>
 
 ## Let's visualize number of training examples for each food item
-
-
 ```python
 main='Dataset/train/'
 
@@ -287,9 +274,6 @@ plt.xticks(color='black',fontsize=13)
 plt.yticks(fontsize=13)
 plt.show()
 ```
-
-
-    
 ![png](output_28_0.png)
 
 <h4>We notice that 2 classes (Pani puri and Kulfi) lacks behind with training data.</h4>
@@ -429,7 +413,7 @@ model.save('Model/model_v1_inceptionV3_1.h5')
 
 
 ## Accuracy and Loss curves
-![png](data/Loss_v1_InceptionV3.png)
+![png](images/Loss_v1_InceptionV3.png)
 
 
 # <b> PREDICTIONS </b>
